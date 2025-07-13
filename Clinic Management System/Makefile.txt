@@ -1,0 +1,10 @@
+CC = gcc
+CFLAGS = -Iinclude
+SRC = src/CLINIC_main.c src/CLINIC_program.c
+OUT = clinic_app
+
+all:
+	$(CC) $(SRC) $(CFLAGS) -o $(OUT)
+
+clean:
+	rm -f $(OUT)
