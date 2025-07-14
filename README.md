@@ -34,6 +34,3 @@ Clinic_management_system/
 ├── Makefile                    # For compiling the whole project easily
 └── README.md                   # Project documentation (this file)
 ```
-
----
-
